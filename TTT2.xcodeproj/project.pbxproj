@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B42FECC919FC00A900192C7E /* TicTacToeBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = B42FECC819FC00A900192C7E /* TicTacToeBoard.m */; };
 		B4DED92319F2BE7400592FE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DED92219F2BE7400592FE6 /* main.m */; };
 		B4DED92619F2BE7400592FE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DED92519F2BE7400592FE6 /* AppDelegate.m */; };
 		B4DED92919F2BE7400592FE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DED92819F2BE7400592FE6 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B42FECC719FC00A900192C7E /* TicTacToeBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicTacToeBoard.h; sourceTree = "<group>"; };
+		B42FECC819FC00A900192C7E /* TicTacToeBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicTacToeBoard.m; sourceTree = "<group>"; };
 		B4DED91D19F2BE7400592FE6 /* TTT2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTT2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DED92119F2BE7400592FE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4DED92219F2BE7400592FE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				B4DED92D19F2BE7400592FE6 /* Images.xcassets */,
 				B4DED92F19F2BE7400592FE6 /* LaunchScreen.xib */,
 				B4DED92019F2BE7400592FE6 /* Supporting Files */,
+				B42FECC719FC00A900192C7E /* TicTacToeBoard.h */,
+				B42FECC819FC00A900192C7E /* TicTacToeBoard.m */,
 			);
 			path = TTT2;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 				TargetAttributes = {
 					B4DED91C19F2BE7400592FE6 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = Y98EGXRXN9;
 					};
 					B4DED93519F2BE7400592FE6 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -222,6 +228,7 @@
 				B4DED92919F2BE7400592FE6 /* ViewController.m in Sources */,
 				B4DED92619F2BE7400592FE6 /* AppDelegate.m in Sources */,
 				B4DED92319F2BE7400592FE6 /* main.m in Sources */,
+				B42FECC919FC00A900192C7E /* TicTacToeBoard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,9 +350,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ayesha Ansari (GSN6YH3F5B)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ayesha Ansari (GSN6YH3F5B)";
 				INFOPLIST_FILE = TTT2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7e248adf-48c2-4607-abaa-71bb0b2dd648";
 			};
 			name = Debug;
 		};
@@ -353,9 +363,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ayesha Ansari (GSN6YH3F5B)";
 				INFOPLIST_FILE = TTT2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7e248adf-48c2-4607-abaa-71bb0b2dd648";
 			};
 			name = Release;
 		};
@@ -412,6 +424,7 @@
 				B4DED94219F2BE7400592FE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4DED94319F2BE7400592FE6 /* Build configuration list for PBXNativeTarget "TTT2Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				B4DED94519F2BE7400592FE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
